@@ -18,14 +18,14 @@ a{
     text-decoration: none;
 }
 img{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 .container{
     max-width: 137rem;
     max-height: 698rem;
     margin: 0 auto;
-    background-color: rgb(131, 131, 226);
+    
 }
 .row{
     display: flex;
@@ -67,3 +67,34 @@ img{
 .col-12{
     width: 100px;
 }
+
+/* ***************Header***************** */
+header{
+    padding-top: 5.1rem;
+    background-color: grey;
+}
+header .container{
+    display: flex;
+    /* background-color: grey; */
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    margin-left: auto;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 3.3rem;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+header .search i{
+   font-size: 1.8rem;
+   color: white;
+   padding-left: 3.3rem;
+}
+
+/* ************************************* */
