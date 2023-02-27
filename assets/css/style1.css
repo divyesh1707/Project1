@@ -225,7 +225,6 @@ header .search i {
     color: #878787;
     margin-bottom: 3rem;
 }
-
 .explore-slide .card-img {
     height: 35rem;
 }
@@ -245,7 +244,7 @@ header .search i {
 
 .explore-slide .swiper-wrapper {
     padding: 2rem 2rem;
-    margin-top: 35px;
+    margin-top: 85px;
 }
 
 .swiper-slide .card-text h2 {
@@ -305,14 +304,27 @@ header .search i {
 .explore-slide .swiper-button-prev{
     position: absolute;
     top: 25px;
-    left: 0;
+    left: 20px;
     color: #020202;
+    font-size: 2rem;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 2px;
+    background-color:  whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .explore-slide .swiper-button-next{
     position: absolute;
     top: 25px;
-    right: 0;
+    right: 20px;
     color: #020202;
+    font-size: 2rem;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 2px;
+    background-color:  whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+
 }
 
 
