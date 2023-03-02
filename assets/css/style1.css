@@ -115,6 +115,29 @@ header nav {
 header nav ul li {
     display: inline-block;
     padding: 3.3rem;
+    position: relative;
+}
+
+header nav ul li ul {
+    display: inline-block;
+    position: absolute;
+    top: 6.5rem;
+    left: 1rem;
+    display: none;
+    background-color: rgb(219, 208, 208);
+}
+header nav ul li:hover a{
+    color: #020202;
+}
+header nav ul li:hover ul{
+    display: block;
+}
+header nav ul li ul li ul {
+    width: 100%;
+}
+header nav ul li ul li:hover a{
+    background-color: #FFFFFF;
+    
 }
 
 nav ul li a {
@@ -126,7 +149,6 @@ nav ul li a {
 header .search i {
     font-size: 1.8rem;
     color: white;
-    padding-right: 10.3rem;
 }
 
 .dark-header {
@@ -160,9 +182,9 @@ header .search i {
 .hero-data h1 {
     font-weight: 700;
     font-size: 9rem;
-    line-height: 11rem;
+    line-height: 10rem;
     color: #FFFFFF;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .hero-data p {
@@ -170,7 +192,7 @@ header .search i {
     font-size: 1.8rem;
     line-height: 3.6rem;
     color: #cfcfcf;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .hero-data span {
@@ -182,27 +204,29 @@ header .search i {
 
 #hero .search-data {
     width: 73rem;
-    height: 8rem;
+    height: 6rem;
     border-radius: 8rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
-    padding: 2rem 1.5rem;
-    margin-bottom: 4rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
 }
 
 #hero .search-data select {
     border: none;
     font-size: 1.5rem;
+    font-family: 'poppins';
 }
 
 #hero .search-data .explore-btn {
     border: none;
-    padding: 2rem 3rem;
+    padding: 1.6rem 2.5rem;
     background-color: black;
     color: white;
     border-radius: 4rem;
+    font-family: 'poppins';
 
 }
 
@@ -315,8 +339,8 @@ header .search i {
     left: 20px;
     color: #020202;
     font-size: 2rem;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 2px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -328,12 +352,21 @@ header .search i {
     right: 20px;
     color: #020202;
     font-size: 2rem;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 2px;
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 2.5rem;
 }
 
 /* ************Why Choose*************** */
@@ -356,16 +389,18 @@ header .search i {
     font-weight: 500;
     font-size: 1.8rem;
     text-align: center;
-    color: #FFFFFF;   
+    color: #FFFFFF;
     margin-bottom: 10rem;
 }
-.why-slider .swiper-slide{
+
+.why-slider .swiper-slide {
     background-color: #FFFFFF;
     border-radius: 1rem;
     height: 32rem;
-    border: solid  black;
+    border: solid black;
 }
-.why-slider .why-img img{
+
+.why-slider .why-img img {
     width: 9.55rem;
     height: 9rem;
 }
