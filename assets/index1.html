@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -175,6 +176,73 @@
                 </div>
             </div>
         </section>
+        <section id="why">
+            <div class="container">
+                <div class="why-choose">
+                    <h2>Why choose Us?</h2>
+                    <p>our services have been trusted by world travelers.</p>
+                </div>
+                <div class="swiper why-slider ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/best service.png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h3>Best Service</h3>
+                                <p>our service is reliable and <br>
+                                    convenient, our service is <br>
+                                    quality.</p>
+                                    <p>Learn more ----> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/price guarantee.png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h3>Price Guarantee</h3>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <p>Learn more ----> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/hand picked.png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h3>Handpicked Hotels</h3>
+                                <p>our service is reliable and <br> convenient, our service is <br> quality.</p>
+                                <p>Learn more ----> </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/best service.png" alt="">
+                            </div>
+                            <div class="why-text">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/price guarantee.png" alt="">
+                            </div>
+                            <div class="why-text">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./images/hand picked.png" alt="">
+                            </div>
+                            <div class="why-text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
     </main>
     <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt laboriosam ex natus. Consequatur nihil
         corrupti aliquid eligendi aut? Nesciunt eius laborum delectus sint consequatur magnam, voluptas corrupti dolore
@@ -314,7 +382,32 @@
         repudiandae explicabo deserunt harum dolores, consequatur quaerat vero! Quidem, perferendis! Asperiores cum
         impedit mollitia porro non nostrum animi architecto quisquam ab quaerat totam voluptatem hic, eos perspiciatis,
         ratione dolorem nesciunt deserunt sit ex. Provident reiciendis ea rem!</p> -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper1 = new Swiper(".why-slider", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 12,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
     <script>
         var swiper = new Swiper(".explore-slide", {
             slidesPerView: 1,

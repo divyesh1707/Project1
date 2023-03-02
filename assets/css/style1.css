@@ -8,6 +8,7 @@ html {
     /* font-size: 10px;
     10px / 16px = 0.625 = 62.5 */
     font-size: 62.5%;
+
 }
 
 body {
@@ -335,6 +336,43 @@ header .search i {
 
 }
 
+/* ************Why Choose*************** */
+#why {
+    margin: 17.8rem 0;
+    background-color: #878787;
+    height: 45rem;
+}
+
+.why-choose h2 {
+    font-weight: 600;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 9rem;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.why-choose p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;   
+    margin-bottom: 10rem;
+}
+.why-slider .swiper-slide{
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    height: 32rem;
+}
+.why-slider .why-img img{
+    width: 9.55rem;
+    height: 9rem;
+}
+
+
+
+/* ************************************** */
+
 /* ************Responsive*************** */
 /* 1366-1440(Laptop) */
 @media screen and (max-width:1440px) {
@@ -362,8 +400,7 @@ header .search i {
 @media screen and (max-width:1365px) {
     .nav ul li a {
         color: white;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 1.2rem;
     }
 
     .main-title p {
@@ -383,13 +420,22 @@ header .search i {
 /* 992-1199 (Big Tablet) */
 @media screen and (max-width:1199px) {
     .nav ul li a {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
 }
 
 /* 768-991 (Small Tablet) */
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+    .nav ul li a {
+        font-size: 1rem;
+    }
+
+    .header nav ul li {
+        display: inline-block;
+        padding: 3rem 2rem;
+    }
+}
 
 /* 575-767 (Mobile Landscape) */
 @media screen and (max-width:767px) {}
