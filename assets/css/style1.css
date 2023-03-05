@@ -379,6 +379,9 @@ header .search i {
     background-color: #878787;
     height: 45rem;
 }
+.swiper-wrapper{
+    margin-top: 8rem;
+}
 
 .why-choose h2 {
     font-weight: 700;
@@ -402,8 +405,9 @@ header .search i {
     background-color: #FFFFFF;
     border-radius: 1rem;
     height: 40rem;
-    border: solid black;
+    /* border: solid black; */
     width: 32rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .why-slider .why-img {
@@ -440,7 +444,59 @@ header .search i {
     font-size: 1.8rem;
     line-height: 7.7rem;
 }
+.why-slider{
+    position: relative;
+}
+.why-slider .swiper-button-next{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: #020202;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
 
+.why-slider .swiper-button-prev{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #020202;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* **************** Our ****************** */
+
+#our{
+    margin: 17.8rem 0;
+}
+
+.main-title{
+    margin-top: 40rem;
+}
+
+.main-title h2 {
+   margin-top: 10rem;
+}
+.our-img{
+    display: flex;
+}
+.our-img img{
+    height: 4rem;
+    margin: 4rem;
+}
+
+/* *************************************** */
 
 /* ************************************** */
 

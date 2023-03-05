@@ -193,6 +193,8 @@
                     <p>our services have been trusted by world travelers.</p>
                 </div>
                 <div class="swiper why-slider">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="why-img">
@@ -258,6 +260,21 @@
                 </div>
             </div>
         </section>
+        <section id="our">
+            <div class="container">
+                <div class="main-title">
+                    <h2>Our tour partner</h2>
+                    <p>There are many variation of passage of lorem ipsum available but <br> the majority have suffered alteration </p>
+                </div>
+                <div class="our-img">
+                    <img src="./images/Katana.png" alt="">
+                    <img src="./images/travava.png" alt="">
+                    <img src="./images/bigui.png" alt="">
+                    <img src="./images/Booking.com.png" alt="">
+                    <img src="./images/Jakmaen (1).png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
@@ -267,6 +284,10 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
             breakpoints: {
                 640: {
