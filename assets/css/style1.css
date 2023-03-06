@@ -247,7 +247,7 @@ header .search i {
     line-height: 70px;
     text-align: center;
     color: #020202;
-    margin-bottom: 5rem;
+    /* margin-top: -30rem; */
 }
 
 .main-title p {
@@ -375,12 +375,20 @@ header .search i {
 
 /* ************Why Choose*************** */
 #why {
+    background: url(../images/why-choose.jpg);
+    background-size: 100% 70rem;
+    object-fit: cover;
+    object-position: center center;
     margin: 17.8rem 0;
     background-color: #878787;
     height: 45rem;
 }
+
 .swiper-wrapper{
     margin-top: 8rem;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    /* margin-right: 45px; */
 }
 
 .why-choose h2 {
@@ -399,6 +407,7 @@ header .search i {
     color: #FFFFFF;
     line-height: 3.6rem;
     margin-bottom: 10rem;
+    margin-top: -3rem;
 }
 
 .why-slider .swiper-slide {
@@ -475,7 +484,7 @@ header .search i {
 }
 
 
-/* **************** Our ****************** */
+/* *************Our Tour Partner *********** */
 
 #our{
     margin: 17.8rem 0;
@@ -496,7 +505,145 @@ header .search i {
     margin: 4rem;
 }
 
+
 /* *************************************** */
+
+/* **************Testi Monial************* */
+
+.title-testi h3{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 7rem;
+    letter-spacing: 14%;
+    color: #626262;
+}
+.title-testi h2{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7rem;
+    color:#020202;
+}
+.title-testi p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: #626262;
+}
+.testi-swiper .swiper-slide .testi-img img{
+    width: 130px;
+    height: 130px;
+    margin-left: 8rem;
+}
+.testi-swiper .swiper-slide .testi-data h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    text-align: center;
+}
+.testi-swiper .swiper-slide .testi-data p{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.testi-swiper .swiper-slide .testi-data img{
+    height: 2.1rem;
+    width: 13.3rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.testi-swiper .swiper-slide .testi-data p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: #858585;    
+}
+.mytest-Swiper .swiper-slide{
+    height: 50rem;
+    border: solid  black;
+}
+
+/* *************** Subscribe ************** */
+
+#subscribe{
+    background: url(../images/subscribe.jpg);
+    height: 40rem;
+    position: relative;
+    background-size: 100%;
+    object-fit: cover;
+}
+#subscribe::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0 0 0 /0.5);
+}
+#subscribe .main-subscribe{
+    position: relative;
+    z-index: 999;
+}
+.main-subscribe h2{
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+.main-subscribe p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.type{
+    width: 67.6rem;
+    height: 6.9rem;
+    background-color: #FFFFFF;
+    border-radius: 5rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.type h3{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: #9b9b9b;
+    padding: 1.7rem;
+}
+.type .type-btn{
+    margin: 1rem;
+}
+.type .type-btn button{
+    font-size: 'poppins';
+    border: none;
+    padding: 1rem 10rem;
+    margin-right: 0rem;
+    color: white;
+    background-color: black;
+    width: 1rem;
+    height: 5rem;
+    border-radius: 7.2rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+
+
+
+/* ****************************************** */
+
+
+
+
+
+
+
+
+
+
 
 /* ************************************** */
 
@@ -546,7 +693,7 @@ header .search i {
 
     .hero-data p {
         font-size: 1.5rem;
-        line-height: 1rem;
+        line-height: 3rem;
     }
 
     .main-title h2 {
