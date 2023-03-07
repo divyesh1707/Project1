@@ -240,14 +240,16 @@ header .search i {
 #explore {
     margin: 17.8rem 0;
 }
-
+#explore .main-title{
+    margin-top: -4rem;
+}
 .main-title h2 {
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
     text-align: center;
     color: #020202;
-    /* margin-top: -30rem; */
+    margin-bottom: 2rem;
 }
 
 .main-title p {
@@ -645,8 +647,8 @@ header .search i {
 /* ************Footer************************ */
 
 #footer{
-    margin-top: 5rem;
-    height: 50rem;
+    margin-top: 3rem;
+    height: 25rem;
 }
 #footer .footer-main{
     display: flex;
@@ -684,6 +686,18 @@ header .search i {
     font-size: 1.8rem;
     line-height: 3.4rem;
     color: #6C6C6C;
+}
+/* .follow-us{
+    flex-wrap: wrap;
+} */
+.follow-us h3{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 7rem;
+    color: #000;
+}
+.follow-icon{
+    flex-wrap: wrap;
 }
 
 
