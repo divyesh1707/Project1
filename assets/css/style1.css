@@ -29,8 +29,9 @@ img {
 }
 
 .container {
-    max-width: 150rem;
-    margin: 0 55px;
+    max-width: 140rem;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .row {
@@ -109,7 +110,7 @@ header .container {
 }
 
 header nav {
-    margin: auto;
+    margin-left: auto;
 }
 
 header nav ul li {
@@ -279,7 +280,7 @@ header .search i {
 }
 
 .explore-slide .swiper-wrapper {
-    padding: 2rem 0rem;
+    /* padding: 2rem 0rem; */
     margin-top: 85px;
 }
 
@@ -337,6 +338,7 @@ header .search i {
 
 #explore .explore-slide {
     position: relative;
+    padding-top: 5rem;
 }
 
 .explore-slide .swiper-button-prev {
@@ -354,15 +356,16 @@ header .search i {
 
 .explore-slide .swiper-button-next {
     position: absolute;
-    top: 25px;
-    right: 20px;
+    top: 44px;
+    right: 30px;
     color: #020202;
     font-size: 2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 2px;
-    background-color: whitesmoke;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    box-shadow: 0px 8px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
 
 }
 
@@ -387,9 +390,8 @@ header .search i {
 }
 
 .swiper-wrapper{
-    margin-top: 8rem;
-    margin-bottom: 25px;
-    margin-left: 15px;
+   margin-bottom: 25px;
+    /* margin-left: 15px; */
     /* margin-right: 45px; */
 }
 
