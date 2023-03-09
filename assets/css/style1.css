@@ -579,7 +579,7 @@ header .search i {
 
 #subscribe{
     background: url(../images/subscribe.jpg);
-    height: 40rem;
+    height: 50rem;
     position: relative;
     background-size: 100%;
     object-fit: cover;
@@ -601,6 +601,7 @@ header .search i {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 2rem;
+    padding-top: 3rem;
 }
 .main-subscribe p{
     font-weight: 500;
@@ -652,8 +653,7 @@ header .search i {
 }
 #footer .footer-main{
     display: flex;
-    justify-content: space-between;
-        
+    justify-content: space-between;     
 }
 #footer .footer-logo img{
     width: 383px;
@@ -671,6 +671,15 @@ header .search i {
     line-height: 7rem;
     align-items: center;
 }
+#footer .footer-data p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    color: #6C6C6C;
+}
+#footer .footer-data p:hover i{
+    color: #000;
+}
 .footer-links h3{
     font-weight: 600;
     font-size: 2.4rem;
@@ -678,8 +687,10 @@ header .search i {
 }
 .footer-links ul{
     text-decoration: none;
-    list-style-type: none;
-    
+    list-style-type: none; 
+}
+.footer-links ul li:hover a{
+    color: #000;
 }
 .footer-links ul li a{
     font-weight: 500;
@@ -687,34 +698,54 @@ header .search i {
     line-height: 3.4rem;
     color: #6C6C6C;
 }
-/* .follow-us{
-    flex-wrap: wrap;
-} */
 .follow-us h3{
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 7rem;
     color: #000;
 }
-.follow-icon{
-    flex-wrap: wrap;
+.follow-us .follow-icon i{
+    margin: 0 0.5rem;
+    font-size: 1.8rem;
+    color: #6C6C6C;
 }
+.follow-us .follow-icon a i:hover{
+    color: #1A77F2;
+}
+.follow-us .follow-icon a:nth-child(2) i:hover{
+    color: #1D9BF0;
+}
+.follow-us .follow-icon a:nth-child(3) i:hover{
+    color: #FF0000;
+}
+.follow-us .follow-icon a:last-child i:hover{
+    color: #FF00CE;
+}
+
+/* ****************************************** */
+.copyright-design{
+    height: 12.1rem;
+    background: #000000;
+}
+.copyright-design p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+
+
+/* ***********Copy Right ******************** */
+
+.
 
 
 
 
 
 /* ****************************************** */
-
-
-
-
-
-
-
-
-
-
 
 /* ************************************** */
 
