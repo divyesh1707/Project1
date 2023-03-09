@@ -289,6 +289,8 @@
             <div class="container">
                 <div class="testi-container">
                     <div class="swiper mytest-Swiper">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testi-img">
@@ -413,7 +415,8 @@
                 <div class="footer-main">
                     <div class="footer-logo">
                         <img src="./images/footer-logo.png" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit.  Illum, odit. Fugiat recusandae eaque velit </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Illum, odit. Fugiat recusandae
+                            eaque velit </p>
                     </div>
                     <div class="footer-data">
                         <h3>Contact Information</h3>
@@ -443,9 +446,9 @@
             </div>
         </section>
         <section id="copyright">
-                <div class="copyright-design">
-                    <p>Copyright © 2021 UNQ Design</p>
-                </div>
+            <div class="copyright-design">
+                <p>Copyright © 2021 UNQ Design</p>
+            </div>
             </div>
         </section>
     </main>
@@ -454,6 +457,10 @@
         var swiper = new Swiper(".mytest-Swiper", {
             slidesPerView: 1,
             spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
             breakpoints: {
                 "@0.00": {
                     slidesPerView: 1,

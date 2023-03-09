@@ -515,7 +515,30 @@ header .search i {
 .testi-container{
     margin-top: 5rem;
 }
-
+.mytest-Swiper{
+    position: relative;
+}
+.testi-container .mytest-Swiper .swiper-button-next{
+    position: absolute;
+    top: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    color: #000;
+}
+.testi-container .mytest-Swiper .swiper-button-prev{
+    top: 1rem;
+    left: 125rem;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    color: #000;
+}
 .title-testi h3{
     font-size: 3rem;
     font-weight: 500;
