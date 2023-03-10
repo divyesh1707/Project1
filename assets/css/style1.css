@@ -390,10 +390,10 @@ header .search i {
     height: 60rem;
 }
 
-.swiper-wrapper{
+.why-slider.swiper-wrapper{
     margin-top: 8rem;
    /* margin-bottom: 45px; */
-    margin-left: 34px;
+    /* margin-left: 34px; */
     /* margin-right: 45px; */
 }
 
