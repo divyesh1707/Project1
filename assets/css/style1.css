@@ -343,15 +343,16 @@ header .search i {
 
 .explore-slide .swiper-button-prev {
     position: absolute;
-    top: 25px;
-    left: 20px;
+    top: 44px;
+    left: 30px;
     color: #020202;
     font-size: 2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 2px;
-    background-color: whitesmoke;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    box-shadow: 0px 8px 50px 0px rgb(0 0 0 / 10%);
+    border-radius: 1rem;
 }
 
 .explore-slide .swiper-button-next {
@@ -386,12 +387,13 @@ header .search i {
     object-position: center center;
     margin: 17.8rem 0;
     background-color: #878787;
-    height: 45rem;
+    height: 60rem;
 }
 
 .swiper-wrapper{
-   margin-bottom: 25px;
-    /* margin-left: 15px; */
+    margin-top: 8rem;
+   /* margin-bottom: 45px; */
+    margin-left: 34px;
     /* margin-right: 45px; */
 }
 
@@ -413,14 +415,17 @@ header .search i {
     margin-bottom: 10rem;
     margin-top: -3rem;
 }
+.why-slider .swiper-slide{
+    margin: 9rem 1rem;
+}
 
-.why-slider .swiper-slide {
+.why-slider .swiper-slide .swiper-dd {
     background-color: #FFFFFF;
     border-radius: 1rem;
     height: 40rem;
     /* border: solid black; */
-    width: 32rem;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    width: 30rem;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 40%);
 }
 
 .why-slider .why-img {
@@ -462,32 +467,30 @@ header .search i {
 }
 .why-slider .swiper-button-next{
     position: absolute;
-    top: 25px;
-    right: 20px;
+    top: 22px;
+    right: 30px;
     color: #020202;
     font-size: 2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 2px;
-    background-color: whitesmoke;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    box-shadow: 0px 8px 50px 0px rgb(0 0 0 / 10%);
+    border-radius: 1rem;
 }
-
 .why-slider .swiper-button-prev{
     position: absolute;
-    top: 25px;
-    left: 20px;
+    top: 22px;
+    left: 30px;
     color: #020202;
     font-size: 2rem;
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 2px;
-    background-color: whitesmoke;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-
+    background-color: white;
+    box-shadow: 0px 8px 50px 0px rgb(0 0 0 / 10%);
+    border-radius: 1rem;
 }
-
-
 /* *************Our Tour Partner *********** */
 
 #our{
@@ -517,28 +520,29 @@ header .search i {
 .testi-container{
     margin-top: 5rem;
 }
+.mytest-Swiper .swiper-wrapper{
+    margin-top: 25rem;
+}
 .mytest-Swiper{
     position: relative;
 }
 .testi-container .mytest-Swiper .swiper-button-next{
     position: absolute;
-    top: 1rem;
-    background-color: #FFFFFF;
+    top: 6rem;
     border-radius: 1rem;
-    height: 5rem;
-    width: 5rem;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 7rem;
+    width: 7rem;
+    box-shadow: 0px 8px 50px 0px rgb(0 0 0 / 10%);
     color: #000;
 }
 .testi-container .mytest-Swiper .swiper-button-prev{
-    top: 1rem;
-    left: 125rem;
+    top: 6rem;
+    left: 117rem;
     position: absolute;
-    background-color: #FFFFFF;
     border-radius: 1rem;
-    height: 5rem;
-    width: 5rem;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 7rem;
+    width: 7rem;
+    box-shadow: 0px 8px 50px 0px rgb(0 0 0 / 10%);
     color: #000;
 }
 .title-testi h3{
@@ -560,10 +564,11 @@ header .search i {
     line-height: 4rem;
     color: #626262;
 }
-.mytest-Swiper .swiper-slide{
-    height: 42rem;
+.mytest-Swiper .swiper-slide  {
+    height: 45rem;
     box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 15rem;
+
 }
 .testi-swiper .swiper-slide .testi-img img{
     width: 130px;
