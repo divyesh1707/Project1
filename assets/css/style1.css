@@ -507,7 +507,7 @@ header .search i {
 }
 
 .main-title {
-    margin-top: 40rem;
+    margin-top: 35rem;
 }
 
 .main-title h2 {
@@ -516,7 +516,7 @@ header .search i {
 
 .our-img {
     display: flex;
-    gap: 15px;
+    gap: 70px;
 }
 
 .our-img img {
@@ -916,7 +916,7 @@ header .search i {
     }
 
     .testi-swiper .swiper-slide .testi-img img {
-        margin-left: 10rem;
+        margin-left: 8rem;
     }
 
     .type {
