@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/kursor.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style1.css">
 </head>
-
 <body>
     <header id="main-header">
         <div class="container">
@@ -46,7 +47,14 @@
         <section id="hero">
             <div class="container">
                 <div class="hero-data">
-                    <h1>Make in <br>your journey</h1>
+                    <h1 class="cd-headline slide">
+                        <span> Make in your </span><br>
+                        <span class="cd-words-wrapper waiting">
+                            <b class="is-visible"> journey </b>
+                            <b>Life</b>
+                            <b>Dreams</b>
+                        </span>
+                    </h1>
                     <p>Explore the world with what you love beautiful <br> natural beauty.</p>
                     <div class="search">
                         <form action="" class="search-data">
@@ -75,6 +83,38 @@
                 </div>
             </div>
         </section>
+        <!-- <section id="hero">
+            <div class="container">
+                <div class="hero-data">
+                    <h1>Make in <br>your journey</h1>
+                    <p>Explore the world with what you love beautiful <br> natural beauty.</p>
+                    <div class="search">
+                        <form action="" class="search-data">
+                            <select name="Location">
+                                <option value="0">Location</option>
+                                <option value="1">Surat</option>
+                                <option value="2">Baroda</option>
+                                <option value="3">Vapi</option>
+                            </select>
+                            <select name="Date">
+                                <option value="0">Date</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select name="People">
+                                <option value="0">People</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <input type="submit" class="explore-btn" value="Explore now">
+                        </form>
+                    </div>
+                    <p><span>Popular Place : </span>Bali, Istanbul, Rome, Paris.</p>
+                </div>
+            </div>
+        </section> -->
         <section id="explore">
             <div class="container">
                 <div class="main-title">
@@ -273,18 +313,21 @@
             </div>
         </section>
         <section id="our">
-            <div class="container">
-                <div class="main-title">
-                    <h2>Our tour partner</h2>
-                    <p>There are many variation of passage of lorem ipsum available but <br> the majority have suffered
-                        alteration </p>
-                </div>
-                <div class="our-img">
-                    <img src="./images/Katana.png" alt="">
-                    <img src="./images/travava.png" alt="">
-                    <img src="./images/bigui.png" alt="">
-                    <img src="./images/Booking.com.png" alt="">
-                    <img src="./images/Jakmaen (1).png" alt="">
+            <div id="particles-js">
+                <div class="container">
+                    <div class="main-title">
+                        <h2>Our tour partner</h2>
+                        <p>There are many variation of passage of lorem ipsum available but <br> the majority have
+                            suffered
+                            alteration </p>
+                    </div>
+                    <div class="our-img">
+                        <img src="./images/Katana.png" alt="">
+                        <img src="./images/travava.png" alt="">
+                        <img src="./images/bigui.png" alt="">
+                        <img src="./images/Booking.com.png" alt="">
+                        <img src="./images/Jakmaen (1).png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -468,7 +511,23 @@
             </div>
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="./js/kursor.js"></script>
+
+    <script>
+        var kursorx = new kursor({
+            type: 2,
+            color: 'rgba(200,100,0)'
+        });
+    </script>
+
     <script>
         var swiper = new Swiper(".mytest-Swiper", {
             slidesPerView: 1,

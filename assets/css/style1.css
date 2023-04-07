@@ -13,6 +13,7 @@ html {
 
 body {
     font-family: 'Poppins';
+    background-color: white;
 }
 
 p {
@@ -232,7 +233,14 @@ header .search i {
     color: white;
     border-radius: 4rem;
     font-family: 'poppins';
+}
+.is-visible{
+    color: black;
+}
 
+.cd-words-wrapper{
+    width: 400px;
+    height: 130px;
 }
 
 /*********************************/
@@ -523,6 +531,10 @@ header .search i {
     height: 4rem;
 }
 
+canvas{
+    position: absolute;
+    top: 0;
+}
 
 /* *************************************** */
 
